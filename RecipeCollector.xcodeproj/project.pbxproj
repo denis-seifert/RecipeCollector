@@ -13,6 +13,13 @@
 		920D7C952694962D00A1CFF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920D7C942694962D00A1CFF6 /* Preview Assets.xcassets */; };
 		920D7CA02694962D00A1CFF6 /* RecipeCollectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7C9F2694962D00A1CFF6 /* RecipeCollectorTests.swift */; };
 		920D7CAB2694962D00A1CFF6 /* RecipeCollectorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CAA2694962D00A1CFF6 /* RecipeCollectorUITests.swift */; };
+		920D7CBB2694D0EF00A1CFF6 /* TabRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CBA2694D0EF00A1CFF6 /* TabRootView.swift */; };
+		920D7CBE2694D1C300A1CFF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CBD2694D1C300A1CFF6 /* HomeView.swift */; };
+		920D7CC02694D1EB00A1CFF6 /* MealPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CBF2694D1EB00A1CFF6 /* MealPlanView.swift */; };
+		920D7CC22694D21400A1CFF6 /* AddRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CC12694D21400A1CFF6 /* AddRecipeView.swift */; };
+		920D7CC42694D22000A1CFF6 /* GroceryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CC32694D22000A1CFF6 /* GroceryView.swift */; };
+		920D7CC726962AC800A1CFF6 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CC626962AC800A1CFF6 /* AddButton.swift */; };
+		920D7CCA26962BF400A1CFF6 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D7CC926962BF400A1CFF6 /* InputField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +52,13 @@
 		920D7CA62694962D00A1CFF6 /* RecipeCollectorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeCollectorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		920D7CAA2694962D00A1CFF6 /* RecipeCollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectorUITests.swift; sourceTree = "<group>"; };
 		920D7CAC2694962D00A1CFF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920D7CBA2694D0EF00A1CFF6 /* TabRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRootView.swift; sourceTree = "<group>"; };
+		920D7CBD2694D1C300A1CFF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		920D7CBF2694D1EB00A1CFF6 /* MealPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanView.swift; sourceTree = "<group>"; };
+		920D7CC12694D21400A1CFF6 /* AddRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeView.swift; sourceTree = "<group>"; };
+		920D7CC32694D22000A1CFF6 /* GroceryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryView.swift; sourceTree = "<group>"; };
+		920D7CC626962AC800A1CFF6 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		920D7CC926962BF400A1CFF6 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +111,7 @@
 			children = (
 				920D7C8D2694962A00A1CFF6 /* RecipeCollectorApp.swift */,
 				920D7C8F2694962A00A1CFF6 /* ContentView.swift */,
+				920D7CBC2694D1AC00A1CFF6 /* UI */,
 				920D7C912694962D00A1CFF6 /* Assets.xcassets */,
 				920D7C962694962D00A1CFF6 /* Info.plist */,
 				920D7C932694962D00A1CFF6 /* Preview Content */,
@@ -128,6 +143,36 @@
 				920D7CAC2694962D00A1CFF6 /* Info.plist */,
 			);
 			path = RecipeCollectorUITests;
+			sourceTree = "<group>";
+		};
+		920D7CBC2694D1AC00A1CFF6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				920D7CC826962B8000A1CFF6 /* UIElements */,
+				920D7CC526962AB900A1CFF6 /* UIButtons */,
+				920D7CBA2694D0EF00A1CFF6 /* TabRootView.swift */,
+				920D7CC12694D21400A1CFF6 /* AddRecipeView.swift */,
+				920D7CC32694D22000A1CFF6 /* GroceryView.swift */,
+				920D7CBD2694D1C300A1CFF6 /* HomeView.swift */,
+				920D7CBF2694D1EB00A1CFF6 /* MealPlanView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		920D7CC526962AB900A1CFF6 /* UIButtons */ = {
+			isa = PBXGroup;
+			children = (
+				920D7CC626962AC800A1CFF6 /* AddButton.swift */,
+			);
+			path = UIButtons;
+			sourceTree = "<group>";
+		};
+		920D7CC826962B8000A1CFF6 /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				920D7CC926962BF400A1CFF6 /* InputField.swift */,
+			);
+			path = UIElements;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				920D7C902694962A00A1CFF6 /* ContentView.swift in Sources */,
+				920D7CBE2694D1C300A1CFF6 /* HomeView.swift in Sources */,
+				920D7CCA26962BF400A1CFF6 /* InputField.swift in Sources */,
+				920D7CC42694D22000A1CFF6 /* GroceryView.swift in Sources */,
+				920D7CC22694D21400A1CFF6 /* AddRecipeView.swift in Sources */,
+				920D7CC02694D1EB00A1CFF6 /* MealPlanView.swift in Sources */,
 				920D7C8E2694962A00A1CFF6 /* RecipeCollectorApp.swift in Sources */,
+				920D7CBB2694D0EF00A1CFF6 /* TabRootView.swift in Sources */,
+				920D7CC726962AC800A1CFF6 /* AddButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
