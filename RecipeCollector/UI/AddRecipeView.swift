@@ -20,7 +20,7 @@ struct AddRecipeView: View {
             InputField(text: $recipeLink, name: "Enter a Link")
             Button(action: {
                 print("Add Recipe.")
-                linkMetaData = activityViewControllerLinkMetadata(<#UIActivityViewController#>) ?? nil
+                //linkMetaData = activityViewControllerLinkMetadata(<#UIActivityViewController#>) ?? nil
             }) {
                 AddButton(size: 50)
             }
